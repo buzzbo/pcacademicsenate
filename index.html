@@ -67,6 +67,7 @@
                   <a href="assets/Academic Senate Constitution (proposed revision 082115).pdf" target="_blank">Proposed Constitution Amendments</a> (8/20/2015<br>
                   <a href="assets/Porterville College Academic Senate By-Laws - adopted 08-20-2015.pdf" target="_blank">ByLaws</a> (approved 8/20/2015)
                </p>
+               <hr>
                
             </div>
 
@@ -76,6 +77,7 @@
                You will also find guides such as the online teaching handbook, curriculum 
                handbook.</p>
                <a href="policies.html" class="btn btn-danger">View &raquo;</a>
+               <hr>
             </div>
             <div class="col-md-6">
                <h2>Academic Calendars</h2>
@@ -96,13 +98,18 @@
       
       <div class="navbar navbar-default navbar-static-bottom footer">
          <div class="container">
-           <p>&#169; Porterville College Academic Senate 2015</p>
+           <p style="display:inline-block;">
+              &#169; Porterville College Academic Senate&nbsp;
+              <div id="thisyear" style="display:inline-block;">
+              </div>
+           </p>
          </div>
       </div>
 
 <!-- This always goes at the bottom -->
       <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
       <script src="bootstrap-3.3.4-dist/js/bootstrap.min.js"></script>
+      <script>document.getElementById("thisyear").innerHTML = new Date().getFullYear();</script>
    </body>
 </html>
 

@@ -86,15 +86,21 @@
          </div><!-- END Row DIV-->
       </div><!-- END Container DIV -->
       
-
       <div class="navbar navbar-default navbar-static-bottom footer">
-         <div class="container centered">
+         <div class="container">
+           <p style="display:inline-block;">
+              &#169; Porterville College Academic Senate&nbsp;
+              <div id="thisyear" style="display:inline-block;">
+              </div>
+           </p>
          </div>
       </div>
 
 <!-- This always goes at the bottom -->
       <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
       <script src="bootstrap-3.3.4-dist/js/bootstrap.min.js"></script>
+      <script>document.getElementById("thisyear").innerHTML = new Date().getFullYear();</script>
+
    </body>
 </html>
 
